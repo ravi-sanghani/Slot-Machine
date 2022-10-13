@@ -19,7 +19,7 @@ const SlotMachine = (props) => {
       <div>
         {x} {y} {z}
       </div>
-      <div>{l === y && h === z ? "It is matched" : "It is not matched"}</div>
+      <div>{x === y && y === z ? "It is matched" : "It is not matched"}</div>
       <hr />
     </>
   );
